@@ -1,0 +1,376 @@
+@media screen and (min-width:813px) and (max-width:1080px) {
+    .container {
+        margin: 0 auto;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    header {
+        min-height: 72px;
+        padding-top: 27px;
+    }
+    .header_links {
+        position: static;
+        display: flex;
+        justify-content: center;
+    }
+    .header_links a {
+        font-size: 13px;
+        line-height: 18px;
+        margin-right: 22px;
+    }
+    .probes {
+        height: 40px;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 80px;
+        padding-right: 80px;
+        bottom: 20px;
+    }
+    .probes a {
+        font-size: 12px;
+        line-height: 16px;
+        margin-right: 32px;
+    }
+    .bottomLeft {
+        font-size: 13px;
+        line-height: 28px;
+        width: 100%;
+    }
+    .bottomRight {
+        font-size: 13px;
+        line-height: 28px;
+        width: 100%;
+    }
+    .footerBottom {
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .bottomForm {
+        height: 40%;
+        width: 80%;
+        padding: 6px 6px;
+        position: static;
+        justify-content: space-around;
+        margin-top: 32px;
+    }
+    .blueBlock {
+        height: 100%;
+        padding-top: 45%;
+        padding-bottom: 45%;
+    }
+}
+
+@media screen and (min-width:600px) and (max-width:812px) {
+    .container {
+        margin: 0 auto;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    header {
+        min-height: 72px;
+        padding-top: 27px;
+    }
+    .header_links {
+        position: static;
+        display: flex;
+        justify-content: center;
+    }
+    .header_links a {
+        font-size: 12px;
+        line-height: 16px;
+        margin-right: 22px;
+    }
+    .probes {
+        height: 40px;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 80px;
+        padding-right: 80px;
+        bottom: 40px;
+    }
+    .probes a {
+        font-size: 12px;
+        line-height: 16px;
+        margin-right: 32px;
+    }
+    .for {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+    .for-item {
+        padding: 0;
+        margin: 0;
+        flex-basis: 43%;
+    }
+    .for-img {
+        min-height: 250px;
+    }
+    .news {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    .news-div-foto {
+        min-height: 204px;
+    }
+    .disciplines_block {
+        justify-content: space-around;
+    }
+    .discipline_item {
+        min-height: 440px;
+        flex-basis: 50%;
+    }
+    .discipline_item_text {
+        padding-top: 36px;
+        padding-bottom: 60px;
+    }
+    .blueBlock {
+        height: 100%;
+        padding-top: 45%;
+        padding-bottom: 45%;
+    }
+    .disc_page_item {
+        flex-basis: 80%;
+        margin-bottom: 40px;
+    }
+    .topRight a img {
+        height: 14px;
+        width: 14px;
+    }
+    .footerTop,
+    .footerBottom {
+        padding-left: 60px;
+        padding-right: 50px;
+    }
+    .bottomLeft {
+        font-size: 13px;
+        line-height: 28px;
+        width: 100%;
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .topLeft {
+        margin-right: 22px;
+        font-size: 12px;
+        line-height: 26px;
+    }
+    .bottomRight {
+        font-size: 13px;
+        line-height: 28px;
+        width: 100%;
+    }
+    .footerBottom {
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .bottomForm {
+        height: 40%;
+        width: 80%;
+        padding: 6px 6px;
+        position: static;
+        justify-content: space-around;
+        margin-top: 32px;
+    }
+    .bottom {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-left: 32px;
+        padding-right: 32px;
+        align-items: center;
+    }
+    .copy1,
+    .copy2 {
+        display: inline-block;
+    }
+    .bottom a {
+        display: none;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:599px) {
+    header {
+        padding-top: 23px;
+        min-height: 200px;
+    }
+    .header_links {
+        position: static;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .header_links a {
+        font-size: 13px;
+        line-height: 18px;
+        margin-right: 32px;
+    }
+    .probes {
+        min-height: 80px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 0;
+        align-items: center;
+    }
+    .probes a {
+        font-size: 12px;
+        line-height: 16px;
+        margin-right: 32px;
+    }
+    .for {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+    .for-item {
+        padding: 0;
+        margin: 0;
+        width: 75%;
+    }
+    .for-img {
+        min-height: 200px;
+        width: 75%;
+    }
+    .index-button {
+        margin-right: auto;
+        margin-left: auto;
+        width: 80%;
+    }
+    .news-heading {
+        margin-top: 60px;
+        margin-bottom: 30px;
+    }
+    .news {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+    .news-div-foto {
+        min-height: 160px;
+        width: 100%;
+    }
+    .news-div-foto {
+        min-height: 204px;
+    }
+    .disciplines_block {
+        /* flex-direction: column; */
+        justify-content: space-around;
+    }
+    .discipline_item {
+        flex-basis: 100%;
+    }
+    .discipline_item_photo {
+        min-height: 300px;
+    }
+    .discipline_item_text {
+        padding-top: 36px;
+        padding-bottom: 60px;
+    }
+    .blueBlock {
+        min-height: 120px;
+        padding-top: 45%;
+        padding-bottom: 45%;
+    }
+    .discipline_video_block {
+        width: 90%;
+    }
+    /*footer*/
+    .footerTop {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+    .topRight a img {
+        height: 25%;
+    }
+    .footerBottom {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+    .topLeft,
+    .topRight {
+        width: 80%;
+        display: flex;
+        justify-content: space-around;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .topLeft {
+        margin-right: 22px;
+    }
+    .bottomLeft {
+        font-size: 12px;
+        line-height: 14px;
+        flex-direction: column;
+        align-items: stretch;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .bottomRight {
+        font-size: 12px;
+        line-height: 14px;
+        margin: 0;
+        padding: 0;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 100%;
+    }
+    .footerBottom a {
+        margin-bottom: 10px;
+    }
+    .bottomForm {
+        height: 30%;
+        width: 100%;
+        padding: 2px 2px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        border-style: none;
+    }
+    .bottomRight input {
+        padding: 2% 2%;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        margin-bottom: 4px;
+        min-width: 80%;
+    }
+    .btnFormBottom {
+        min-height: 16px;
+        font-size: 12px;
+        line-height: 14px;
+        padding: 1px 1px;
+        width: 80%;
+    }
+    .bottom {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-left: 32px;
+        padding-right: 32px;
+        align-items: center;
+    }
+    .copy1,
+    .copy2 {
+        display: inline-block;
+    }
+    .bottom a {
+        display: none;
+    }
+}
